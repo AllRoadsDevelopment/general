@@ -1,0 +1,91 @@
+/*
+	File Name: Common Style Sheet
+	Description: collection of commonly used class names
+	Version: 1.0
+	License: GPL V2
+*/
+h1,h2,h3,h4,h5,h6{
+
+}
+a{ color: #XXXXXX; }
+a:hover{ color: #XXXXXX;}
+
+.left{ float: left;}
+.right{ float: right;}
+.center{ text-align: center;}
+.margin10{ margin: 10px;}  .margin20{ margin: 20px;}
+.padding10{ padding: 10px;} .padding20{ padding: 20px;}
+.auto{ margin: 0 auto}
+.hide{ display: none;}
+.block{ display: block;}
+.font100{ font-weight: 100;}
+.font400{ font-weight: 400;}
+.font800{ font-weight: 800;}
+.transition{transition: 0.3s all ease-in-out;-moz-transition: transition: 0.3s all ease-in-out;-webkit-transition: transition: 0.3s all ease-in-out;}
+/*-- colors --*/
+.color1{ color: #XXXXXX; }
+.color2{ color: #XXXXXX; }
+.white{ color: #ffffff; }
+/*-- gravity forms --*/
+.gform_fields{
+	list-style-type: none;
+}
+.gfield label{
+	font-size: 14px;
+}
+
+.gform_fields input[type=text]{
+	/*border-radius: 10px;*/
+	width: 80%;
+	outline: none;
+	padding: 5px 10px;
+	border: 1px solid #ebebeb;
+	background: #ebebeb;
+	
+}
+.gform_footer{
+	text-align: center;
+}
+.gform_fields input[type=text]:focus{
+	border: 1px solid #5198cc;
+	transition: 0.3s all ease-in-out;
+	-moz-transition: 0.3s all ease-in-out;
+	-webkit-transition: 0.3s all ease-in-out;
+	box-shadow: inset 0 0 3px #5198cc;
+}
+.button-primary,.gform_button{
+	border: none;
+	outline: none;
+	padding: 8px 15px !important;
+	background: #f0f0f0 !important;
+	color: #303030;
+	font-weight: 800;
+	transition: 0.3s all ease-in-out;
+	-moz-transition: 0.3s all ease-in-out;
+	-webkit-transition: 0.3s all ease-in-out;
+
+}
+.gform_button{
+	background: #414141 !important;
+	color: #ffffff;
+	font-size: 17px;
+}
+.button-primary:hover{
+	background: #B40439 !important;
+	color: #ffffff;
+}
+.gform_button:hover{
+	background: #B40439 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
