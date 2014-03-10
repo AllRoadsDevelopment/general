@@ -12,6 +12,7 @@ a:hover{ color: #XXXXXX;}
 
 .left{ float: left;}
 .right{ float: right;}
+.none{ float: none;}
 .center{ text-align: center;}
 .margin10{ margin: 10px;}  .margin20{ margin: 20px;}
 .padding10{ padding: 10px;} .padding20{ padding: 20px;}
