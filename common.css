@@ -82,6 +82,27 @@ a:hover{ color: #XXXXXX;}
 
 
 
+/* ---------- List Styles ---------- */
+
+/* Checklist */
+ul.checklist {
+	list-style:none;
+	padding-left:30p;
+}
+ul.checklist li {
+	padding-left:25px;
+	margin:5px 0;
+}
+ul.checklist li:before {
+	content:"\f046";
+	font-family:"FontAwesome";
+	display:block;
+	float:left;
+	font-size:18px;
+	line-height:22px;
+	margin-left:-25px;
+	color:#XXXXXX;
+}
 
 
 
