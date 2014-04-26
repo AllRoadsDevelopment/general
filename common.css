@@ -84,17 +84,19 @@ a:hover{ color: #XXXXXX;}
 
 /* ---------- List Styles ---------- */
 
-/* Checklist */
-ul.checklist {
+/* CheckList Defaults */
+ul.checklist,
+ul.checkbox {
 	list-style:none;
-	padding-left:30p;
+	padding-left:10%;
 }
-ul.checklist li {
+ul.checklist li,
+ul.checkbox li {
 	padding-left:25px;
 	margin:5px 0;
 }
-ul.checklist li:before {
-	content:"\f046";
+ul.checklist li:before,
+ul.checkbox li:before {
 	font-family:"FontAwesome";
 	display:block;
 	float:left;
@@ -102,6 +104,14 @@ ul.checklist li:before {
 	line-height:22px;
 	margin-left:-25px;
 	color:#XXXXXX;
+}
+/* Check */
+ul.checklist li:before {
+	content:"\f00c";
+}
+/* CheckBox */
+ul.checkbox li:before {
+	content:"\f046";
 }
 
 
